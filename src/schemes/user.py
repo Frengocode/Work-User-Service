@@ -44,3 +44,12 @@ class SelectRole(Enum):
     
     WORKER = "Работник"
     EMPLOYER = "Работодотель"
+
+
+
+
+
+
+
+
+
