@@ -7,7 +7,7 @@ from src.auth_service.oauth import get_current_user
 from src.uitils.scheme import SUser
 
 
-user_router = APIRouter(tags=["User"], prefix="/user-service/api/v1")
+user_router = APIRouter(tags=["User Service"], prefix="/user-service/api/v1")
 
 
 @user_router.post("/sing-up/")
