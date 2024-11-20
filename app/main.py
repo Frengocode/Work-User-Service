@@ -10,10 +10,10 @@ app = FastAPI(title="User Service")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8000", "http://192.168.100.59:8000"],  # Разрешённые источники
+    allow_origins=["http://localhost:8000", "http://your_host:8000"], 
     allow_credentials=True,
-    allow_methods=["*"],  # Разрешённые методы (GET, POST и т.д.)
-    allow_headers=["*"],  # Разрешённые заголовки
+    allow_methods=["*"], 
+    allow_headers=["*"], 
 )
 
 
