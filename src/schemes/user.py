@@ -4,6 +4,8 @@ from enum import Enum
 from typing import Optional
 import uuid
 
+
+
 class VacancyResponse(BaseModel):
 
     id: uuid.UUID
